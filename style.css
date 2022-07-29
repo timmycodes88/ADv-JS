@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 777px;
+    height: 777px;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 259px;
+    height: 259px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 225px;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
